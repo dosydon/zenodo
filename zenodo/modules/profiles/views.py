@@ -26,7 +26,7 @@
 
 from __future__ import absolute_import, print_function
 
-from flask import Blueprint, render_template
+from flask import Blueprint, render_template, url_for
 from .api import ProfileRecordsSearch
 
 import pprint
