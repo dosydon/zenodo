@@ -21,13 +21,6 @@
     waive the privileges and immunities granted to it by virtue of its status
     as an Intergovernmental Organization or submit itself to any jurisdiction.
 
-Proof-of-Concept Implementation
-------------------
-This branch implements some features of user profile pages. To see it working, please first create 
-a new account (with user_id=2 by default) and upload some new records. A profile page for the user should
-be accessible from "localhost:5000/profiles/2". Note that since this is merely a proof-of-concept implementation, little
-to no attention is paid to code reusability and testing.
-
 ============================
  Zenodo - Research. Shared.
 ============================
@@ -53,6 +46,14 @@ to no attention is paid to code reusability and testing.
 Zenodo, a CERN service, is an open dependable home for the long-tail of
 science, enabling researchers to share and preserve any research outputs in
 any size, any format and from any science.
+
+Proof-of-Concept Implementation
+------------------
+This branch implements some features of user profile pages. To see it working, please first create 
+a new account (with user_id=2 by default) and upload some new records. A profile page for the user should
+be accessible from "localhost:5000/profiles/2". Note that since this is merely a proof-of-concept implementation, little
+to no attention is paid to code reusability and testing.
+
 
 Powered by Invenio
 ------------------
